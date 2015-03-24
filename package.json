@@ -1,0 +1,26 @@
+{
+  "name": "clientside-testing-example",
+  "version": "0.0.0",
+  "scripts": {
+    "preinstall": "node bin/preinstall",
+    "postinstall": "node bin/postinstall"
+  },
+  "dependencies": {
+    "jquery": "*"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "karma": "*",
+    "karma-mocha": "*",
+    "karma-phantomjs-launcher": "*",
+    "mocha": "*",
+    "phantomjs": "*",
+    "karma-chai": "*",
+    "karma-js-coverage": "*",
+    "karma-sinon": "*",
+    "karma-chrome-launcher": "*"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  }
+}
