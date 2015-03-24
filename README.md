@@ -8,15 +8,15 @@ You must have Node.js installed.
 
 In the root directory, execute:
 
-'''bash
+```bash
 npm install
-'''
+```
 
 To start/run the tests, execute the following in the root directory:
 
-'''
+```bash
 node_modules/karma/bin/karma start
-'''
+```
 
 # Watch #
 
