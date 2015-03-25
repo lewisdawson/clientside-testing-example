@@ -1,7 +1,9 @@
 var fs = require('fs'),
+	libDirPath,
 	jqueryFilePath;
 
-jqueryFilePath = __dirname + '/../src/main/webapp/lib/jquery.min.js';
+libDirPath = __dirname + '/../src/main/webapp/lib';
+jqueryFilePath = libDirPath + '/jquery.min.js';
 
 fs.exists(jqueryFilePath, function (exists) {
 	if(exists) {
